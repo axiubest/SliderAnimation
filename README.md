@@ -11,9 +11,7 @@
 
 <!---->在视图将要出现处调用动画开始方法
 
-- (void)viewWillAppear:(BOOL)animated {
-
+    - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
     [self.animation startAnimation];
-}
+    }
