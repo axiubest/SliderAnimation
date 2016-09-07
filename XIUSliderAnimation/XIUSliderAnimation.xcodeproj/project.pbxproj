@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6F78431D7FB6340041EB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6F78421D7FB6340041EB7B /* main.m */; };
+		FA6F78461D7FB6340041EB7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6F78451D7FB6340041EB7B /* AppDelegate.m */; };
+		FA6F78491D7FB6340041EB7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6F78481D7FB6340041EB7B /* ViewController.m */; };
+		FA6F784C1D7FB6340041EB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6F784A1D7FB6340041EB7B /* Main.storyboard */; };
+		FA6F784E1D7FB6340041EB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6F784D1D7FB6340041EB7B /* Assets.xcassets */; };
+		FA6F78511D7FB6340041EB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6F784F1D7FB6340041EB7B /* LaunchScreen.storyboard */; };
+		FA6F785C1D7FB6350041EB7B /* XIUSliderAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6F785B1D7FB6350041EB7B /* XIUSliderAnimationTests.m */; };
+		FA6F78671D7FB6350041EB7B /* XIUSliderAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6F78661D7FB6350041EB7B /* XIUSliderAnimationUITests.m */; };
+		FA6F78761D7FB7C80041EB7B /* XIUSliderAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6F78751D7FB7C80041EB7B /* XIUSliderAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6F78581D7FB6350041EB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6F78361D7FB6330041EB7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6F783D1D7FB6340041EB7B;
+			remoteInfo = XIUSliderAnimation;
+		};
+		FA6F78631D7FB6350041EB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6F78361D7FB6330041EB7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6F783D1D7FB6340041EB7B;
+			remoteInfo = XIUSliderAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA6F783E1D7FB6340041EB7B /* XIUSliderAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XIUSliderAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6F78421D7FB6340041EB7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA6F78441D7FB6340041EB7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA6F78451D7FB6340041EB7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA6F78471D7FB6340041EB7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA6F78481D7FB6340041EB7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA6F784B1D7FB6340041EB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA6F784D1D7FB6340041EB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6F78501D7FB6340041EB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA6F78521D7FB6340041EB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6F78571D7FB6350041EB7B /* XIUSliderAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XIUSliderAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6F785B1D7FB6350041EB7B /* XIUSliderAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XIUSliderAnimationTests.m; sourceTree = "<group>"; };
+		FA6F785D1D7FB6350041EB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6F78621D7FB6350041EB7B /* XIUSliderAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XIUSliderAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6F78661D7FB6350041EB7B /* XIUSliderAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XIUSliderAnimationUITests.m; sourceTree = "<group>"; };
+		FA6F78681D7FB6350041EB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6F78741D7FB7C80041EB7B /* XIUSliderAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIUSliderAnimation.h; sourceTree = "<group>"; };
+		FA6F78751D7FB7C80041EB7B /* XIUSliderAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIUSliderAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6F783B1D7FB6340041EB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6F78541D7FB6350041EB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6F785F1D7FB6350041EB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6F78351D7FB6330041EB7B = {
+			isa = PBXGroup;
+			children = (
+				FA6F78401D7FB6340041EB7B /* XIUSliderAnimation */,
+				FA6F785A1D7FB6350041EB7B /* XIUSliderAnimationTests */,
+				FA6F78651D7FB6350041EB7B /* XIUSliderAnimationUITests */,
+				FA6F783F1D7FB6340041EB7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6F783F1D7FB6340041EB7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F783E1D7FB6340041EB7B /* XIUSliderAnimation.app */,
+				FA6F78571D7FB6350041EB7B /* XIUSliderAnimationTests.xctest */,
+				FA6F78621D7FB6350041EB7B /* XIUSliderAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6F78401D7FB6340041EB7B /* XIUSliderAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F78441D7FB6340041EB7B /* AppDelegate.h */,
+				FA6F78451D7FB6340041EB7B /* AppDelegate.m */,
+				FA6F78471D7FB6340041EB7B /* ViewController.h */,
+				FA6F78481D7FB6340041EB7B /* ViewController.m */,
+				FA6F78741D7FB7C80041EB7B /* XIUSliderAnimation.h */,
+				FA6F78751D7FB7C80041EB7B /* XIUSliderAnimation.m */,
+				FA6F784A1D7FB6340041EB7B /* Main.storyboard */,
+				FA6F784D1D7FB6340041EB7B /* Assets.xcassets */,
+				FA6F784F1D7FB6340041EB7B /* LaunchScreen.storyboard */,
+				FA6F78521D7FB6340041EB7B /* Info.plist */,
+				FA6F78411D7FB6340041EB7B /* Supporting Files */,
+			);
+			path = XIUSliderAnimation;
+			sourceTree = "<group>";
+		};
+		FA6F78411D7FB6340041EB7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F78421D7FB6340041EB7B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA6F785A1D7FB6350041EB7B /* XIUSliderAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F785B1D7FB6350041EB7B /* XIUSliderAnimationTests.m */,
+				FA6F785D1D7FB6350041EB7B /* Info.plist */,
+			);
+			path = XIUSliderAnimationTests;
+			sourceTree = "<group>";
+		};
+		FA6F78651D7FB6350041EB7B /* XIUSliderAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F78661D7FB6350041EB7B /* XIUSliderAnimationUITests.m */,
+				FA6F78681D7FB6350041EB7B /* Info.plist */,
+			);
+			path = XIUSliderAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6F783D1D7FB6340041EB7B /* XIUSliderAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6F786B1D7FB6350041EB7B /* Build configuration list for PBXNativeTarget "XIUSliderAnimation" */;
+			buildPhases = (
+				FA6F783A1D7FB6340041EB7B /* Sources */,
+				FA6F783B1D7FB6340041EB7B /* Frameworks */,
+				FA6F783C1D7FB6340041EB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XIUSliderAnimation;
+			productName = XIUSliderAnimation;
+			productReference = FA6F783E1D7FB6340041EB7B /* XIUSliderAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA6F78561D7FB6350041EB7B /* XIUSliderAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6F786E1D7FB6350041EB7B /* Build configuration list for PBXNativeTarget "XIUSliderAnimationTests" */;
+			buildPhases = (
+				FA6F78531D7FB6350041EB7B /* Sources */,
+				FA6F78541D7FB6350041EB7B /* Frameworks */,
+				FA6F78551D7FB6350041EB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6F78591D7FB6350041EB7B /* PBXTargetDependency */,
+			);
+			name = XIUSliderAnimationTests;
+			productName = XIUSliderAnimationTests;
+			productReference = FA6F78571D7FB6350041EB7B /* XIUSliderAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA6F78611D7FB6350041EB7B /* XIUSliderAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6F78711D7FB6350041EB7B /* Build configuration list for PBXNativeTarget "XIUSliderAnimationUITests" */;
+			buildPhases = (
+				FA6F785E1D7FB6350041EB7B /* Sources */,
+				FA6F785F1D7FB6350041EB7B /* Frameworks */,
+				FA6F78601D7FB6350041EB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6F78641D7FB6350041EB7B /* PBXTargetDependency */,
+			);
+			name = XIUSliderAnimationUITests;
+			productName = XIUSliderAnimationUITests;
+			productReference = FA6F78621D7FB6350041EB7B /* XIUSliderAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6F78361D7FB6330041EB7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XIU;
+				TargetAttributes = {
+					FA6F783D1D7FB6340041EB7B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FA6F78561D7FB6350041EB7B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA6F783D1D7FB6340041EB7B;
+					};
+					FA6F78611D7FB6350041EB7B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA6F783D1D7FB6340041EB7B;
+					};
+				};
+			};
+			buildConfigurationList = FA6F78391D7FB6340041EB7B /* Build configuration list for PBXProject "XIUSliderAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA6F78351D7FB6330041EB7B;
+			productRefGroup = FA6F783F1D7FB6340041EB7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6F783D1D7FB6340041EB7B /* XIUSliderAnimation */,
+				FA6F78561D7FB6350041EB7B /* XIUSliderAnimationTests */,
+				FA6F78611D7FB6350041EB7B /* XIUSliderAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6F783C1D7FB6340041EB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6F78511D7FB6340041EB7B /* LaunchScreen.storyboard in Resources */,
+				FA6F784E1D7FB6340041EB7B /* Assets.xcassets in Resources */,
+				FA6F784C1D7FB6340041EB7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6F78551D7FB6350041EB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6F78601D7FB6350041EB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6F783A1D7FB6340041EB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6F78761D7FB7C80041EB7B /* XIUSliderAnimation.m in Sources */,
+				FA6F78491D7FB6340041EB7B /* ViewController.m in Sources */,
+				FA6F78461D7FB6340041EB7B /* AppDelegate.m in Sources */,
+				FA6F78431D7FB6340041EB7B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6F78531D7FB6350041EB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6F785C1D7FB6350041EB7B /* XIUSliderAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6F785E1D7FB6350041EB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6F78671D7FB6350041EB7B /* XIUSliderAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6F78591D7FB6350041EB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6F783D1D7FB6340041EB7B /* XIUSliderAnimation */;
+			targetProxy = FA6F78581D7FB6350041EB7B /* PBXContainerItemProxy */;
+		};
+		FA6F78641D7FB6350041EB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6F783D1D7FB6340041EB7B /* XIUSliderAnimation */;
+			targetProxy = FA6F78631D7FB6350041EB7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA6F784A1D7FB6340041EB7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6F784B1D7FB6340041EB7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA6F784F1D7FB6340041EB7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6F78501D7FB6340041EB7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6F78691D7FB6350041EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA6F786A1D7FB6350041EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6F786C1D7FB6350041EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XIUSliderAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XIUSliderAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA6F786D1D7FB6350041EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XIUSliderAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XIUSliderAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA6F786F1D7FB6350041EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XIUSliderAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XIUSliderAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XIUSliderAnimation.app/XIUSliderAnimation";
+			};
+			name = Debug;
+		};
+		FA6F78701D7FB6350041EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XIUSliderAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XIUSliderAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XIUSliderAnimation.app/XIUSliderAnimation";
+			};
+			name = Release;
+		};
+		FA6F78721D7FB6350041EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XIUSliderAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XIUSliderAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XIUSliderAnimation;
+			};
+			name = Debug;
+		};
+		FA6F78731D7FB6350041EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XIUSliderAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XIUSliderAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XIUSliderAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6F78391D7FB6340041EB7B /* Build configuration list for PBXProject "XIUSliderAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6F78691D7FB6350041EB7B /* Debug */,
+				FA6F786A1D7FB6350041EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6F786B1D7FB6350041EB7B /* Build configuration list for PBXNativeTarget "XIUSliderAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6F786C1D7FB6350041EB7B /* Debug */,
+				FA6F786D1D7FB6350041EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA6F786E1D7FB6350041EB7B /* Build configuration list for PBXNativeTarget "XIUSliderAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6F786F1D7FB6350041EB7B /* Debug */,
+				FA6F78701D7FB6350041EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA6F78711D7FB6350041EB7B /* Build configuration list for PBXNativeTarget "XIUSliderAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6F78721D7FB6350041EB7B /* Debug */,
+				FA6F78731D7FB6350041EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA6F78361D7FB6330041EB7B /* Project object */;
+}
