@@ -1,6 +1,7 @@
 # SliderAnimation
 仿苹果滑动来解锁动画
 # 对指定控件添加滑动解锁效果动画，纯代码和xib加载代码都可实现效果
+![image](https://github.com/axiubest/SliderAnimation/blob/master/XIUSliderAnimation/%E6%9C%AA%E5%91%BD%E5%90%8D.gif)
 
 <!---->对遮罩层进行初始化
 
@@ -16,4 +17,4 @@
     [self.animation startAnimation];
     }
 
-![image](https://github.com/axiubest/SliderAnimation/blob/master/XIUSliderAnimation/%E6%9C%AA%E5%91%BD%E5%90%8D.gif)
+
