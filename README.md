@@ -15,3 +15,5 @@
     [super viewWillAppear:animated];
     [self.animation startAnimation];
     }
+
+![image](https://github.com/axiubest/SliderAnimation/blob/master/XIUSliderAnimation/%E6%9C%AA%E5%91%BD%E5%90%8D.gif)
